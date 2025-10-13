@@ -1,0 +1,25 @@
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+ol{
+   width: 70%;
+    font-size: 0;
+   margin: 20px;
+   background-color: red;
+   text-align: center;
+
+}
+
+li{
+width: 16.6%;
+font-size: 16px;
+display: inline-block;
+}
+div{
+    width: 100%;
+    margin-top: auto;
+}
