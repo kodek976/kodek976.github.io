@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 p{
     text-align: center;
 }
@@ -6,20 +9,28 @@ h1{
     margin-top: 100px;
 }
 ol{
-   width: 70%;
     font-size: 0;
-   margin: 20px;
-   background-color: red;
-   text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    text-align: center;
 
 }
 
 li{
-width: 16.6%;
+width: calc(100%/7);
 font-size: 16px;
 display: inline-block;
+
 }
 div{
     width: 100%;
     margin-top: auto;
+}
+nav ol li a{
+    color: white;
+    text-decoration: 0;
+}
+a{
+    text-decoration: 0;
 }
