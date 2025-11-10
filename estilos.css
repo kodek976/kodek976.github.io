@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    background-color: black;
+    color: white;
 }
 p{
     text-align: center;
@@ -12,24 +14,24 @@ ol{
     font-size: 0;
     margin: 0;
     padding: 0;
-    background-color: red;
+    background-color:white;
     text-align: center;
-
+   color: black;
 }
 
 li{
 width: calc(100%/7);
 font-size: 16px;
 display: inline-block;
-
+color: black;
 }
 div{
     width: 100%;
     margin-top: auto;
 }
 nav ol li a{
-    color: white;
     text-decoration: 0;
+    color: black;
 }
 a{
     text-decoration: 0;
