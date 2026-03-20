@@ -69,6 +69,7 @@ width: 80%;
 .reseñas {
   padding: 20px;
   overflow: hidden;
+  
 }
 
 .tarjeta {
@@ -81,6 +82,11 @@ width: 80%;
   padding: 20px;
   vertical-align: top;
   box-sizing: border-box;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.tarjeta:hover {
+  transform: scaleY(1.03);
 }
 
 .silo  {
@@ -90,6 +96,12 @@ width: 80%;
   padding: 10px 24px;
   border-radius: 8px;
   text-decoration: none;
+  transition: transform 0.2s ease;
+}
+.silo:hover {
+  transform: scaleY(1.02);
+  border: 2px solid rgb(2, 49, 2);
+ 
 }
 .medicamentos{
   text-align: center;
@@ -105,7 +117,10 @@ width: 80%;
   font-size: 13px;
   
 }
-@media (max-width: 768px) {
+
+
+
+@media (max-width: 480px) {
   ol {
     display: block;
   }

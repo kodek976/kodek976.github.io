@@ -3,71 +3,156 @@ body{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #444;
+  margin: 0;
+  padding: 0 20px;
 }
+
 ol{
     font-size: 0;
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
 h1{
   font-family: 'Playfair Display', serif;
   text-align: center;
   color: #2c2c2c;
+  margin: 40px 0 20px;
 }
-li{
-width: calc(100%/6);
-font-size: 16px;
-display: inline-block;
+
+h2{
+  font-family: 'Playfair Display', serif;
+  color: #2c2c2c;
+  margin: 40px 0 12px;
 }
+
+h3{
+  font-weight: 400;
+  color: #3a3a3a;
+  margin: 24px 0 8px;
+}
+
+nav ol li{
+  width: calc(100%/6);
+  font-size: 16px;
+  display: inline-block;
+}
+
+ul li {
+  display: list-item;
+  width: auto;
+  font-size: 16px;
+}
+
+nav{
+  background-color: #eedec7;
+  border-bottom: 1px solid #d4c4ad;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 10px 0;
+}
+
 nav ol li a{
-    text-decoration: 0;
+    text-decoration: none;
     color: black;
 }
+
 article{
     margin: 10px;
     display: inline-block;
     width: 34%;
+    vertical-align: top;
 }
+
+section{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
 section img{
-    width: 60%;
-    position: relative top 10px;
+  width: 60%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
 }
+
+article img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+p{
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+
+ul{
+  line-height: 1.9;
+  padding-left: 20px;
+  list-style: disc;
+  display: block;
+}
+
 a{
     text-decoration: inherit;
     color: black;
 }
+
 .migrana{
     color: red;
 }
-@media (max-width: 768px) {
-  ol {
+
+.silo{
+  display: inline-block;
+  background-color: #4a7057;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 480px) {
+  nav ol {
     display: block;
   }
-
-  li {
+ 
+  nav ol li {
     display: block;
     width: 100%;
     text-align: center;
     padding: 8px 0;
     border-bottom: 1px solid #e0d8cf;
   }
+ 
   article {
     width: 100%;
     display: block;
     margin: 10px auto;
+    text-align: center;
   }
-   section img {
+ 
+  article img {
     width: 80%;
+    margin: 0 auto;
   }
-  
+ 
+  section img {
+    width: 90%;
+  }
 }
+ 
 @media (max-width: 1024px) {
   article {
     width: 45%;
   }
-
+ 
   section img {
-    width: 100%;
+    width: 80%;
   }
 }
