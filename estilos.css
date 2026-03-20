@@ -5,6 +5,7 @@ body{
     font-weight: 300;
     color: #444;
 }
+
 p{
     text-align: center;
 }
@@ -47,6 +48,11 @@ article{
     background-color: #fdf8f3;
     text-align: center;
     display: inline-block;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+article:hover {
+  transform: scaleY(1.03);
 }
 article a{
     text-decoration: none;
